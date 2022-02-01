@@ -1,0 +1,8 @@
+highest-y-level: 170
+lowest-y-level: 160
+range: 8
+
+blocks:
+  current: "GREEN_WOOL"
+  next: "YELLOW_WOOL"
+  previous: "ORANGE_WOOL"
