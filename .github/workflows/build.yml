@@ -26,4 +26,4 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-
       - name: Build
-        run: sed -i -e 's/\r$//' ./gradlew && ./gradlew build --stacktrace
+        run: chmod +x gradlew && ./gradlew build --stacktrace
